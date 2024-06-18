@@ -1,7 +1,9 @@
 package com.example.crud_api.note;
 
 import com.example.crud_api.dto.NoteRequestDTO;
-import org.junit.jupiter.api.AfterEach;
+import com.example.crud_api.entity.Note;
+import com.example.crud_api.repository.NoteRepository;
+import com.example.crud_api.service.NoteService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;

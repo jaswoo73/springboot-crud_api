@@ -1,6 +1,7 @@
 package com.example.crud_api.note;
 
 
+import com.example.crud_api.entity.Note;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

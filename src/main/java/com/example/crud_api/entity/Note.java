@@ -1,8 +1,6 @@
-package com.example.crud_api.note;
+package com.example.crud_api.entity;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotEmpty;
-import jakarta.validation.constraints.Size;
 
 @Entity
 @Table(name = "note")

@@ -8,13 +8,10 @@ public class ResponseDTO<T> {
     public ResponseDTO() {
     }
 
-    public ResponseDTO(T body) {
-        this.body = body;
-    }
-
-    public ResponseDTO(Integer errorCode, String errorMessage) {
+    public ResponseDTO(Integer errorCode, String errorMessage, T body) {
         this.errorCode = errorCode;
         this.errorMessage = errorMessage;
+        this.body = body;
     }
 
     public Integer getErrorCode() {

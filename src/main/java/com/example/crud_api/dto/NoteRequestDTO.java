@@ -15,7 +15,6 @@ public class NoteRequestDTO {
     public NoteRequestDTO() {
     }
 
-    // For
     public NoteRequestDTO(String title, String content) {
         this.title = title;
         this.content = content;

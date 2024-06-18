@@ -1,7 +1,8 @@
 package com.example.crud_api.note;
 
+import com.example.crud_api.entity.Note;
+import com.example.crud_api.repository.NoteRepository;
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
